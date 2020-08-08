@@ -1,5 +1,6 @@
 trigger:
 - master
+- develop
 
 variables:
   rootDir: 'my-app'
@@ -7,6 +8,7 @@ variables:
 
 pool:
   vmImage: 'ubuntu-latest'
+  
 
 steps:
 - task: NodeTool@0
